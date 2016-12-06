@@ -12,7 +12,7 @@ var main = function() {
     }, 2000);
     
     setTimeout(function() {
-        $("#fade3").delay(1200).addClass("load");  
+        $("#fade3").delay(1200).addClass("load");
     }, 4000);
     
     setTimeout(function() {
