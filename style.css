@@ -123,9 +123,9 @@
 .circle-icon {
     width: 80px;
     height: 80px;
-    text-align: center;4
+    text-align: center;
     line-height: 80px;
-    font-size 2.1em;
+    font-size: 2.1em;
     border-radius: 40px;
     margin: auto;
     color: #aaa;
@@ -210,8 +210,8 @@
 }
 
 .menu .border a {
-    border: 1px solid #7FCCE5;
-    padding: 2px 15px;
+  border: 1px solid #7FCCE5;
+  padding: 2px 15px;
 }
 
 
@@ -233,15 +233,23 @@
 }
 
 
+/* Backgrounds */
 
+#home {
+    background: url('hipsteropen.jpg') no-repeat bottom;
+    background-size: cover;
+}
+
+#about {
+    background: url('hipsterforest.jpg') no-repeat bottom;
+    background-size: cover;
+}
 
 
 /* Jumbotron */
 
 .jumbotron {
   height: 100%;
-    background: url('hipsteropen.jpg') no-repeat bottom;
-    background-size: cover;
   position: initial;
   overflow: hidden;
 }
