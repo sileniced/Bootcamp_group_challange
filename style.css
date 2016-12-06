@@ -322,7 +322,7 @@
   -o-transition: all 1s ease-in-out;
 }
 
-#fade {
+.fade {
     opacity: 0;
     text-align: center;
 
@@ -333,11 +333,11 @@
             transition: opacity 2s ease-in;
 }
 
-#fade.load {
+.fade.load {
     opacity: 1;
 }
 
-#fade2 {
+.fade2 {
     opacity: 0;
     text-align: center;
 
@@ -348,11 +348,11 @@
             transition: opacity 2s ease-in;
 }
 
-#fade2.load {
+.fade2.load {
     opacity: 1;
 }
 
-#fade3 {
+.fade3 {
     opacity: 0;
     text-align: center;
 
@@ -363,7 +363,7 @@
             transition: opacity 2s ease-in;
 }
 
-#fade3.load {
+.fade3.load {
     opacity: 1;
 }
 
