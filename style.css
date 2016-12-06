@@ -1,8 +1,8 @@
 @media all {
     * {
-        margin: 0,
-        padding: 0,
-    }
+        margin: 0;
+        padding: 0;
+      }
     
     html, body {
         width: 100%;
@@ -135,7 +135,7 @@
 .glyphicon {
     position: relative;
     display: inline-block;
-    font-family: 'Glyphicons Halflings';
+    font-family: 'Glyphicons Halflings', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
@@ -211,9 +211,7 @@
 
 .menu .border a {
     border: 1px solid #7FCCE5;
-    padding: 15px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding: 2px 15px;
 }
 
 
@@ -241,11 +239,9 @@
 /* Jumbotron */
 
 .jumbotron {
-  height: 100%;    
-  background-image:url('hipsteropen.jpg');
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 100%;
+    background: url('hipsteropen.jpg') no-repeat bottom;
+    background-size: cover;
   position: initial;
   overflow: hidden;
 }
@@ -311,8 +307,7 @@
 }
 
 .btn:hover {
-    background-image: none;
-    background-color: #808080;
+    background: #808080 none;
     color: #f7f6f6;
    -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
