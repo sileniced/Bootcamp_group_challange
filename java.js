@@ -1,3 +1,8 @@
+
+
+
+
+
 var main = function() {
     $('.dropdown-toggle').click(function() {
         $('.dropdown-menu').toggle();
@@ -26,7 +31,3 @@ var main = function() {
     };
 
 $(document).ready(main);
-
-
-
-

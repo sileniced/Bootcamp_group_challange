@@ -10,6 +10,10 @@
     }
 }
 
+#map {
+    height: 100%;
+}
+
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
