@@ -114,6 +114,7 @@
 
         </div>
     </div>
+<<<<<<< HEAD
     <script>
 
         function initMap() {
@@ -173,6 +174,12 @@
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3CKaWzbRFvikGLf_FVFCb0yk2-fl1L6s&callback=initMap">
     </script>
         <div class="exploration" id="exploration">
+=======
+
+
+    
+    <div class="exploration" id="exploration">
+>>>>>>> origin/master
         
     <div class="container">
       <h3><span class="underline">Hipster Imagination</span></h3>
@@ -284,6 +291,53 @@
         </div>
         
     </div>
+<<<<<<< HEAD
+=======
+
+
+
+    <script>
+
+        function initMap() {
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 7,
+                scrollwheel: false,
+                center: {lat: 52.0907, lng: 5.1214}
+            });
+
+            // Create an array of alphabetical characters used to label the markers.
+            var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+            // Add some markers to the map.
+            // Note: The code uses the JavaScript Array.prototype.map() method to
+            // create an array of markers based on a given "locations" array.
+            // The map() method here has nothing to do with the Google Maps API.
+            var markers = locations.map(function(location, i) {
+                return new google.maps.Marker({
+                    position: location,
+                    label: labels[i % labels.length]
+                });
+            });
+
+            // Add a marker clusterer to manage the markers.
+            var markerCluster = new MarkerClusterer(map, markers,
+                {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+        }
+        var locations = [
+            {lat: 51.9244, lng: 4.4777},
+            {lat: 52.3702, lng: 4.8952},
+            {lat: 52.0907, lng: 5.1214},
+            {lat: 52.3874, lng: 4.6462}
+        ]
+    </script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3CKaWzbRFvikGLf_FVFCb0yk2-fl1L6s&callback=initMap">
+    </script>
+
+>>>>>>> origin/master
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="java.js"></script>
