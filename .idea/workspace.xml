@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3e75a92-50b6-4cd2-9052-98ea75485231" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/land.html" afterPath="$PROJECT_DIR$/land.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +46,8 @@
       <file leaf-file-name="land.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/land.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="472">
+              <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -250,15 +249,15 @@
       <workItem from="1480009390612" duration="1490000" />
       <workItem from="1480032553898" duration="1084000" />
       <workItem from="1481052763407" duration="1614000" />
-      <workItem from="1481055633646" duration="306000" />
+      <workItem from="1481055633646" duration="925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4494000" />
+    <option name="totallyTimeSpent" value="5113000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="-8" width="1872" height="1292" extended-state="0" />
+    <frame x="56" y="-8" width="1872" height="1292" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25827813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -480,8 +479,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/land.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="472">
+          <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
           <folding />
         </state>
       </provider>
