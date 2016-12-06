@@ -260,48 +260,59 @@
 
 .jumbotron .container {
   position: relative;
-  top: 250px;
+  top: 150px;
 }
 
 .jumbotron h1 {
   color: #fff;
-  font-size: 80px;  
+  font-size: 50px;  
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   text-align: center;
-  padding: 20px;
   text-shadow: 0px 0px 3px #000;
+  display: block;
+  color: #fdcc52;
 }
 
 .jumbotron p {
   color: #fff;
-  font-size: 48px;  
+  font-size: 25px;  
   font-family: 'Oswald', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
   padding: 20px;
-  text-shadow: 0px 0px 3px #000;    
+  text-shadow: 0px 0px 3px #000;   
 }
 
 .jumbotron h3 {
   color: #fff;
-  font-size: 80px;  
+  font-size: 30px;  
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   text-align: center;
-  padding: 20px;
-  text-shadow: 0px 0px 3px #000;    
+  text-shadow: 0px 0px 3px #000; 
+  display: block;   
 }
+
+.about-page {
+  color: #fdcc52;
+}
+
+
 
 .jumbotron .nounderline {
     text-decoration: none;
     color: #fff;
+    display: block;
+    margin: 0 auto;
 }
 
+
+
 .btn {
-  display: inline-block;
+  display: block;
   padding: 4px 14px;
-  margin-bottom: 0px;
+  margin: 0 auto;
   font-size: 13px;
   text-align: center; 
   vertical-align: middle;
@@ -314,8 +325,6 @@
   background-color: transparent; 
     
   position: relative;
-  top: 50px;
-  left: 340px;
 }
 
 .btn:hover {
