@@ -562,6 +562,43 @@
   color: #7FCCE5;
 }
 
+.werkeens {
+padding-top: 20%;  
+}
 
+.footer {
+    height: 20%;
+    background-color: #F7F6F6;
+}
 
+.footer h1 {
+  color: #808080;
+  font-size: 20px;  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 50px;
+    
+  position: relative;
+  top: 35px;
+}
 
+.footer p {
+  color: #808080;
+  font-size: 16px;  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  padding; 20px;
+  text-align: center; 
+  line-height: 200%;
+}
+
+.footer .min {
+  color: #808080;
+  font-size: 12px;  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  padding; 20px;
+  text-align: center; 
+  line-height: 200%;
+}    
