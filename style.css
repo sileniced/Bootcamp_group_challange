@@ -556,16 +556,27 @@
 padding-top: 25%;  
 }
 
+.img-responsive1 {
+display: block;
+width: 40%;
+height: auto;
+float: right;
+}
+.footer {
+    height: 20%;
+    background-color: #F7F6F6;
+}
+
 .img-responsive {
 display: block;
-max-width: 5%;
-width: 5%;
+width: 40%;
 height: auto;
 }
 .footer {
     height: 20%;
     background-color: #F7F6F6;
 }
+
 
 .footer h1 {
   color: #808080;
